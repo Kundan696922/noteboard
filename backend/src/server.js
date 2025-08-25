@@ -1,6 +1,7 @@
 import express from "express"
 import notesRoutes from "./routes/notesRoutes.js"
 import { connectDB } from "./config/db.js";
+import path from "path";
 
 import dotenv from "dotenv";
 import rateLimiter from "./middleware/rateLimiter.js";
@@ -10,20 +11,36 @@ import cors from "cors"
 dotenv.config();
 
 const app = express()
-const PORT = process.env.PORT; 
+const PORT = process.env.PORT || 5001; 
+const _dirname = path.resolve();
 
 
 //middleware
-app.use(cors(
+
+if (process.env.NODE_ENV !== "production") { 
+    app.use(cors(
     {
         origin: "http://localhost:5173",
     }
 ));
+}
+
+
 app.use(express.json());
 app.use(rateLimiter);
 
 
 app.use("/api/notes", notesRoutes);
+
+if (process.env.NODE_ENV === "production") { 
+    app.use(express.static(path.join(_dirname, "../frontend/dist")));
+
+
+app.get("*", (req, res) => {
+    res.sendFile(path.join(_dirname, "../frontend", "dist", "index.html"));
+});
+}
+
 
 connectDB().then(() => { 
     app.listen(PORT, () => {
@@ -35,4 +52,3 @@ connectDB().then(() => {
 
 
 
-// mongodb+srv://kgoyary824:eRAe6sJEYHMk7yLF@cluster0.nj9jya0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
