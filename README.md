@@ -60,15 +60,11 @@ It lets you **create, edit, and delete notes** with ease, has a **fully function
 
 ### Prerequisites
 
-Ensure you have the following installed:
-
-Node.js (v14+)
-
-npm
-
-MongoDB Atlas account
-
-Upstash Redis account (for rate limiting)
+-Ensure you have the following installed:
+-**Node.js** (v14+)
+-**npm**
+-**MongoDB** Atlas account
+-**Upstash** Redis account (for rate limiting)
 
 ### Installation
 
