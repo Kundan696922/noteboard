@@ -1,1 +1,57 @@
-https://noteboard-6618.onrender.com/
+# 📝 NoteBoard – MERN Stack Note Taking App
+
+**NoteBoard** is a simple and powerful **Full-Stack Note Taking App** built with the **MERN stack**.  
+It lets you **create, edit, and delete notes** with ease, has a **fully functional REST API**, and demonstrates **Rate Limiting with Upstash Redis** — all wrapped in a **fully responsive UI**.
+
+---
+
+## 🚀 Demo
+
+> 🌐 Live Demo: 👉 [View NoteBoard](https://noteboard-6618.onrender.com/)
+
+---
+
+## 🛠️ Tools Used
+
+| Tool | Description |
+|------|-------------|
+| ![MongoDB](https://img.icons8.com/color/24/mongodb.png) **MongoDB** | NoSQL Database for storing notes |
+| ![Express](https://img.icons8.com/ios/24/express-js.png) **Express.js** | Backend API framework |
+| ![React](https://img.icons8.com/color/24/react-native.png) **React** | Frontend UI library |
+| ![Node.js](https://img.icons8.com/color/24/nodejs.png) **Node.js** | Server-side JavaScript runtime |
+| ![Redis](https://img.icons8.com/color/24/redis.png) **Upstash Redis** | Rate limiting & caching |
+| ![TailwindCSS](https://img.icons8.com/color/24/tailwindcss.png) **TailwindCSS + DaisyUI** | Modern, responsive UI styling |
+| ![VSCode](https://img.icons8.com/color/24/visual-studio-code-2019.png) **VS Code** | Code editor |
+
+---
+
+## 🌟 Features
+
+- 📝 **Create, Edit, Delete Notes** with title and description  
+- 🔌 **Fully Functional REST API** built with Express.js  
+- 🔐 **Rate Limiting with Upstash Redis** to prevent abuse  
+- 📱 **Completely Responsive Design** for all devices  
+- ⚡ **Vite-powered React Frontend** for blazing-fast development  
+- 📦 **MongoDB Atlas** for cloud database storage  
+- 🧩 **Reusable Components** and clean project structure  
+
+---
+
+## 🖼️ Overview 
+
+| Dashboard | Create Note | Edit Note |
+|-----------|------------|-----------|
+| ![Dashboard Screenshot](./assets/dashboard.png) | ![Create Note Screenshot](./assets/create-note.png) | ![Edit Note Screenshot](./assets/edit-note.png) |
+
+---
+
+## 🚀 Getting Started
+
+### 🔐 Environment Variables Setup
+
+1. Create a `.env` file in the **backend** folder:
+   ```env
+   PORT=5001
+   MONGO_URI=your_mongodb_atlas_connection
+   REDIS_URL=your_upstash_redis_url
+   NODE_ENV=development
