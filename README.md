@@ -39,9 +39,8 @@ It lets you **create, edit, and delete notes** with ease, has a **fully function
 
 ## 🖼️ Overview 
 
-| Dashboard | Create Note | Edit Note |
-|-----------|------------|-----------|
-| ![Dashboard Screenshot](./assets/dashboard.png) | ![Create Note Screenshot](./assets/create-note.png) | ![Edit Note Screenshot](./assets/edit-note.png) |
+<img width="1080" height="1080" alt="Neon Retro Stars Marketing Mockup Website Instagram Post" src="https://github.com/user-attachments/assets/1ad0fada-f1ac-4730-b238-a7cddb07b7dd" />
+
 
 ---
 
@@ -60,28 +59,28 @@ It lets you **create, edit, and delete notes** with ease, has a **fully function
 
 ### Prerequisites
 
--Ensure you have the following installed:
--**Node.js** (v14+)
--**npm**
--**MongoDB** Atlas account
--**Upstash** Redis account (for rate limiting)
+Ensure you have the following installed:
+- **Node.js** (v14+)
+- **npm**
+- **MongoDB** Atlas account
+- **Upstash** Redis account (for rate limiting)
 
 ### Installation
 
-1. Clone the repository:
+ 🧬 Clone the repository:
    ```bash
    git clone https://github.com/your-username/mern-noteboard.git
    cd mern-noteboard
+   ```
 
-
-###🔧 Run the Backend
+🔧 Run the Backend
    ```bash
    cd backend
    npm install
    npm run dev
    ```
 
-###💻 Run the Frontend
+💻 Run the Frontend
    ```bash
    cd frontend
    npm install
