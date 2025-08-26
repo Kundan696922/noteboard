@@ -72,33 +72,21 @@ Upstash Redis account (for rate limiting)
 
 ### Installation
 
-Clone the repository:
-
-git clone https://github.com/your-username/mern-noteboard.git
-cd mern-noteboard
-
-
-Install dependencies:
-
-Backend:
-
-cd backend
-npm install
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/mern-noteboard.git
+   cd mern-noteboard
 
 
-Frontend:
+###🔧 Run the Backend
+   ```bash
+   cd backend
+   npm install
+   npm run dev
+   ```
 
-cd ../frontend
-npm install
-
-
-### Run the development servers:
-
-Backend:
-
-npm run dev
-
-
-Frontend:
-
-npm run dev
+###💻 Run the Frontend
+   ```bash
+   cd frontend
+   npm install
+   npm run dev
