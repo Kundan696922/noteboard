@@ -39,13 +39,13 @@ It lets you **create, edit, and delete notes** with ease, has a **fully function
 
 ## 🖼️ Overview 
 
-<img width="1280" height="720" alt="noteboard" src="https://github.com/user-attachments/assets/62396261-ba46-443b-8a14-5b4b175bbdcf" />
+<img width="1280" height="720" alt="noteboard" src="https://github.com/user-attachments/assets/5d09c633-3460-4f99-bd62-2b73e360566c" />
 
-<img width="1280" height="720" alt="noteboard2" src="https://github.com/user-attachments/assets/d0881450-f8df-4ef9-aae2-a872877996b7" />
+<img width="1280" height="720" alt="noteboard2" src="https://github.com/user-attachments/assets/553749d2-1c7b-4512-ada3-87837b634b9b" />
 
-<img width="1280" height="720" alt="noteboard3" src="https://github.com/user-attachments/assets/7e9ae08f-e4ab-4176-90b9-79252042eb9b" />
+<img width="1280" height="720" alt="noteboard3" src="https://github.com/user-attachments/assets/0312d7ca-7737-4fb8-bf0c-25487e6c2eaf" />
 
-<img width="1280" height="720" alt="noteboard3" src="https://github.com/user-attachments/assets/d2f04b32-a510-4d4a-b8b2-1dba1c8e0f2b" />
+<img width="1280" height="720" alt="noteboard4" src="https://github.com/user-attachments/assets/9ae2f297-3b0b-493f-aca3-99b9e43f6b57" />
 
 
 ---
