@@ -39,7 +39,8 @@ It lets you **create, edit, and delete notes** with ease, has a **fully function
 
 ## 🖼️ Overview 
 
-<img width="1080" height="1080" alt="Neon Retro Stars Marketing Mockup Website Instagram Post" src="https://github.com/user-attachments/assets/1ad0fada-f1ac-4730-b238-a7cddb07b7dd" />
+<img width="1280" height="720" alt="noteboard1" src="https://github.com/user-attachments/assets/ee441c99-86ec-4d72-81f4-d0aba8b5927a" />
+
 
 
 ---
