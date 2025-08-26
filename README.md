@@ -75,7 +75,7 @@ Ensure you have the following installed:
 
  🧬 Clone the repository:
    ```bash
-   git clone https://github.com/your-username/mern-noteboard.git
+   git clone https://github.com/Kundan696922/noteboard.git
    cd mern-noteboard
    ```
 
