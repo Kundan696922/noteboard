@@ -55,3 +55,50 @@ It lets you **create, edit, and delete notes** with ease, has a **fully function
    MONGO_URI=your_mongodb_atlas_connection
    REDIS_URL=your_upstash_redis_url
    NODE_ENV=development
+2. Add .env to .gitignore to keep it private.
+3. Restart your dev server after setting these variables.
+
+### Prerequisites
+
+Ensure you have the following installed:
+
+Node.js (v14+)
+
+npm
+
+MongoDB Atlas account
+
+Upstash Redis account (for rate limiting)
+
+### Installation
+
+Clone the repository:
+
+git clone https://github.com/your-username/mern-noteboard.git
+cd mern-noteboard
+
+
+Install dependencies:
+
+Backend:
+
+cd backend
+npm install
+
+
+Frontend:
+
+cd ../frontend
+npm install
+
+
+### Run the development servers:
+
+Backend:
+
+npm run dev
+
+
+Frontend:
+
+npm run dev
