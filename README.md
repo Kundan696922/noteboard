@@ -39,8 +39,13 @@ It lets you **create, edit, and delete notes** with ease, has a **fully function
 
 ## 🖼️ Overview 
 
-<img width="1280" height="720" alt="noteboard1" src="https://github.com/user-attachments/assets/ee441c99-86ec-4d72-81f4-d0aba8b5927a" />
+<img width="1280" height="720" alt="noteboard" src="https://github.com/user-attachments/assets/62396261-ba46-443b-8a14-5b4b175bbdcf" />
 
+<img width="1280" height="720" alt="noteboard2" src="https://github.com/user-attachments/assets/d0881450-f8df-4ef9-aae2-a872877996b7" />
+
+<img width="1280" height="720" alt="noteboard3" src="https://github.com/user-attachments/assets/7e9ae08f-e4ab-4176-90b9-79252042eb9b" />
+
+<img width="1280" height="720" alt="noteboard3" src="https://github.com/user-attachments/assets/d2f04b32-a510-4d4a-b8b2-1dba1c8e0f2b" />
 
 
 ---
