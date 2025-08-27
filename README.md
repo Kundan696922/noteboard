@@ -41,14 +41,13 @@ It lets you **create, edit, and delete notes** with ease, has a **fully function
 
 ## 🖼️ Overview 
 
-<img width="1280" height="720" alt="noteboard" src="https://github.com/user-attachments/assets/5d09c633-3460-4f99-bd62-2b73e360566c" />
+<img width="1280" height="720" alt="noteboard" src="https://github.com/user-attachments/assets/9b9b5d11-f2c1-415b-90a0-15ffab4c7a44" />
 
-<img width="1280" height="720" alt="noteboard2" src="https://github.com/user-attachments/assets/553749d2-1c7b-4512-ada3-87837b634b9b" />
+<img width="1280" height="720" alt="noteboard2" src="https://github.com/user-attachments/assets/01285c34-2ae9-4042-be9c-ae77a57472e5" />
 
-<img width="1280" height="720" alt="noteboard3" src="https://github.com/user-attachments/assets/0312d7ca-7737-4fb8-bf0c-25487e6c2eaf" />
+<img width="1280" height="720" alt="noteboard3" src="https://github.com/user-attachments/assets/979c3ba3-d72d-47b9-9c0c-3b530fd43c46" />
 
-<img width="1280" height="720" alt="noteboard4" src="https://github.com/user-attachments/assets/9ae2f297-3b0b-493f-aca3-99b9e43f6b57" />
-
+<img width="1280" height="720" alt="noteboard4" src="https://github.com/user-attachments/assets/9258dfa7-d561-4cb8-8db3-a9d8e21a67bf" />
 
 ---
 
@@ -79,7 +78,7 @@ Ensure you have the following installed:
  🧬 Clone the repository:
    ```bash
    git clone https://github.com/Kundan696922/noteboard.git
-   cd mern-noteboard
+   cd noteboard
    ```
 
 🔧 Run the Backend
