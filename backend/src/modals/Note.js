@@ -4,12 +4,13 @@ const noteSchema = new mongoose.Schema(
     {
         title: {
             type: String,
-            required: true,
+            required: true
         },
         content: {
             type: String,
-            required: true,
-        }
+            required: true
+        },
+        pinned: { type: Boolean, default: false },
     },
     { timestamps: true } // createdAt, updatedAt
 );

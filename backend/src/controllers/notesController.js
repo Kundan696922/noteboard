@@ -66,3 +66,19 @@ export async function deleteNote (req, res) {
         
     }
 }
+ 
+export async function pinNote(req, res) {
+    try {
+        const pinNote = await Note.findById(req.params.id);
+        if (!pinNote) return res.status(404).json({ message: "Note not found" });
+
+        pinNote.pinned = !pinNote.pinned;
+        await pinNote.save();
+
+        res.status(200).json(pinNote);
+        
+    } catch (error) {
+        console.error("Error in pinNote contoller", error);
+        res.status(500).json({message : "Internal server error"});
+    }
+}

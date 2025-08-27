@@ -7,15 +7,20 @@ import { Pin, PinOff } from 'lucide-react';
 
 const NoteCard = ({ note, setNotes }) => {
 
-
-    const togglePin = () => {
+    const handlePin = async () => {
+      try {
+        const res = await api.patch(`/notes/${note._id}/pin`);
         setNotes((prev) =>
-        prev.map((n) =>
-            n._id === note._id ? { ...n, pinned: !n.pinned } : n
-        )
+          prev.map((n) => (n._id === note._id ? res.data : n))
         );
-        toast.success(note.pinned ? "Note unpinned" : "Note pinned");
+        toast.success(res.data.pinned ? "Note pinned" : "Note unpinned");
+      } catch (error) {
+        console.error("Failed to toggle pin", error);
+        toast.error("Failed to toggle pin");
+      }
     };
+
+
     
     async function handleDelete(e, id) {
         e.preventDefault();
@@ -35,14 +40,13 @@ const NoteCard = ({ note, setNotes }) => {
 
     return (
       <div
-        // to={`/notes/${note._id}`}
         className="card bg-base-100 hover:shadow-lg transition-all duration-200 border-t-4 border-solid border-[#00ffff]"
       >
         <div className="card-body">
           <div className="flex justify-between">
             <h3 className="card-title text-base-content">{note.title}</h3>
             <button
-              onClick={togglePin}
+              onClick={handlePin}
               className="absolute top-3 right-3 text-primary"
             >
               {note.pinned ? (

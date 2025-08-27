@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router'
-import { PlusIcon } from 'lucide-react'
 import { NotebookPen } from 'lucide-react'
 
 
@@ -30,9 +29,7 @@ const Navbar = ({ setSearch}) => {
               className="input input-bordered w-24 md:w-auto"
             />
             <Link to={"/create"} className="btn btn-primary">
-              {/* <PlusIcon className="size-5" /> */}
               <NotebookPen className="size-5" />
-              {/* <span>New Note</span> */}
             </Link>
           </div>
         </div>
