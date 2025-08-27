@@ -29,7 +29,7 @@ It lets you **create, edit, and delete notes** with ease, has a **fully function
 
 - 📝 **Create, Edit, Delete Notes** with title and description
 - 📌 Pin Notes to keep important notes at the top
-- 🔍 Search Notes instantly by title or content  
+- 🔍 Search Notes instantly by title
 - 🔌 **Fully Functional REST API** built with Express.js
 - 🔐 **Rate Limiting with Upstash Redis** to prevent abuse  
 - 📱 **Completely Responsive Design** for all devices  
