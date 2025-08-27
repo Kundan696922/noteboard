@@ -27,8 +27,10 @@ It lets you **create, edit, and delete notes** with ease, has a **fully function
 
 ## 🌟 Features
 
-- 📝 **Create, Edit, Delete Notes** with title and description  
-- 🔌 **Fully Functional REST API** built with Express.js  
+- 📝 **Create, Edit, Delete Notes** with title and description
+- 📌 Pin Notes to keep important notes at the top
+- 🔍 Search Notes instantly by title or content  
+- 🔌 **Fully Functional REST API** built with Express.js
 - 🔐 **Rate Limiting with Upstash Redis** to prevent abuse  
 - 📱 **Completely Responsive Design** for all devices  
 - ⚡ **Vite-powered React Frontend** for blazing-fast development  
@@ -58,7 +60,8 @@ It lets you **create, edit, and delete notes** with ease, has a **fully function
    ```env
    PORT=5001
    MONGO_URI=your_mongodb_atlas_connection
-   REDIS_URL=your_upstash_redis_url
+   UPSTASH_REDIS_REST_URL=your_upstash_redis_url
+   UPSTASH_REDIS_REST_TOKEN=your_upstash_redis_token
    NODE_ENV=development
 2. Add .env to .gitignore to keep it private.
 3. Restart your dev server after setting these variables.
